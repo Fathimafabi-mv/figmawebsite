@@ -1,0 +1,529 @@
+body{
+    margin:0;
+    font-family:"Inter", serif;
+    color:  #FFFFFF;
+    background: #1B2316;
+    
+}
+*{
+    font-family:"Inter", serif; 
+}
+/* header part start */
+header{
+    display: flex;
+    background: #1B2316;
+    width:100%;
+    height:130px;
+}
+.planto{
+    width:20%;
+    height: 130px;
+    float: left;
+}.planto h{
+   font-size: 28px;
+   font-weight: 900;
+   line-height: 33.89px;
+   text-align: left;
+}
+.planto img{
+    width: 48px;
+    height: 48px;
+    margin-top: 60px;
+    margin-left: 57px;
+}
+nav{
+    width:50%;
+    height:130px;
+    float: left;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+ul li{
+    list-style: none;
+    margin-left:200px ;
+    margin-top:45px ;
+    font-size: 24px;
+}
+ul li a{
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.polygon1{
+    width:12px; 
+    height:7px; 
+    margin-left:10px;
+}
+.icon{
+    width:25%;
+    height: 130px;
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.icon img{
+    margin-left:100px;
+    margin-top: 50px;
+    float: left;
+    height: 26px;
+    width: 26px;
+    
+}
+/* header part end */
+.main{
+display: flex;
+background-color: #1B2316;
+width:100%;
+height: 2592px;
+background-image:url(/figmapuss.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+position: relative;
+flex-wrap: wrap;
+}
+.first-section{
+    flex-direction: column;
+    width: 100%;
+    height: 35%;    
+}
+.second-section{
+    flex-direction: column;
+    width: 100%;
+   height:65%;
+}     
+     /* breath section start */
+.breath{
+    padding-top: 120px;
+    padding-left: 40px;
+    float: left;
+    position: relative;
+    
+   }
+   .breath h{
+    width: 892px;
+    height: 143px;
+    margin-top: 266px;
+    margin-left: 57px;
+    opacity: 0.75px;
+    font-family: Inter;
+    font-size: 118px;
+    font-weight: 600;
+    line-height: 142.81px;
+   text-align: left;
+   }
+   .breath p{
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 27.84px;
+    text-align: left;
+    margin-left: 60px;
+   }
+   button{
+    border: 1px solid #FFFFFF;
+    width: 217px;
+    height: 64px;
+    margin-left: 63px;
+   border-radius: 12px;
+   background-color: #1B2316;
+   color: #FFFFFF;
+   font-size: 28px;
+   float: left;
+   }
+ .vdeo img{
+    width: 34px;
+    height: 34px;
+    }
+.vdeo{
+    height: 74px;
+    width:74px;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: left;
+        
+}
+.breathp{
+    float: left;
+    margin-left: 10;
+}
+   /* breath section end */
+   /* calathea section start */
+.aside{
+ width:50%;
+ margin-left: 300px;
+height:1000px;
+float: left;
+display: flex;
+}  
+
+.calathea{
+width: 512px;
+height: 644px;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 77px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 150px;
+position: relative;
+margin-left: 700px;
+backdrop-filter: blur(25px);
+box-shadow: 0px 9px 18.4px 0px rgba(0, 0, 0, 0.25);
+}
+.plant img{
+    width: 459px;
+    height: 459px;
+    margin-left: 700px;
+    position: absolute;
+    z-index: 1;
+    }
+
+.calathea p{
+    width: 213px;
+height: 28px;
+margin-top: 400px;
+margin-left: 70px;
+font-size: 23px;
+font-weight: 400;
+line-height: 27.84px;
+text-align: left;
+
+} 
+.calathea h{
+    width: 261px;
+height: 46px;
+margin-left: 60px;
+font-size: 38px;
+font-weight: 400;
+line-height: 45.99px;
+text-align: left;
+} 
+.calathea button{
+    margin-top: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0px 9px 18.4px 0px rgba(0, 0, 0, 0.25); 
+   font-size: 28px;
+   font-weight: 300;
+   line-height: 33.89px;
+    } 
+.calathea img{
+    margin-left: 100px;
+}   
+/* calathea end */
+/* review section start */
+.review{
+    width: 409px;
+    height: 237px;
+    background: rgba(255, 255, 255, 0.05);
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 150px;
+   border-radius: 45px ;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur(20.200000762939453px)
+}
+.star {
+    width: 115px;
+height: 47px;
+margin-left: 20px;
+margin-top: 15px;
+}
+.figmagirl1 {
+    height: 64px;
+    width:64px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 45px;
+    margin-left: 30px;
+
+}
+.figmagirl p{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+/* review section end */
+
+ .head1{
+margin-left: 1000px;
+font-size: 55px;
+font-weight: 600;
+line-height: 66.56px;
+text-align: left;
+z-index: -1;
+
+}
+
+/* second portion start */
+.plant1{
+    display: flex;
+    width: 100%;
+    height: 50%;  
+     
+
+}
+.plant2{
+    
+    width:100%;
+    height:50%;
+}
+       /*plant1 in second portion  */
+.plant1img img{
+    width: 601px;
+height: 732px;
+position: relative;
+margin-left: 250px;
+z-index: 1;
+}
+.plant1wrtng{
+    display: flex;
+    margin-top: 200px;
+    width: 2200px;
+    margin-left: 200px;
+height: 526px;
+border-radius: 151px; 
+border: 2px solid linear-gradient(135.72deg, rgba(255, 255, 255, 0.27) 8.53%, rgba(255, 255, 255, 0) 60.59%, rgba(255, 255, 255, 0.33) 93.17%);
+backdrop-filter: blur(40px);
+background: rgba(255, 255, 255, 0.05);
+margin-right: 500px;
+position: absolute;
+
+}
+.new{
+    margin-top:100px;
+    margin-left: 900px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.new h{
+font-size: 38px;
+font-weight: 600;
+line-height: 45.99px;
+
+
+}
+.new p{
+    
+font-size: 20px;
+font-weight: 600;
+line-height: 24.2px;
+
+}
+.pricehead{
+padding-right: 1000px;
+font-size: 38px;
+font-weight: 600;
+line-height: 45.99px;
+
+}
+.button1{
+
+    background: rgba(255, 255, 255, 0.05);
+    margin:0;
+    width: 217px;
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 1);
+font-size: 28px;
+font-weight: 500;
+line-height: 33.89px;
+}
+.button2 img{
+    width: 34px;
+    height: 34px;
+    
+    
+}
+.button2{
+    width: 64px;
+height: 64px;
+border-radius: 12px;
+border: 2px solid rgba(255, 255, 255, 1);
+background: rgba(255, 255, 255, 0.05);
+
+}
+.new button{
+    margin-top: 20px;
+}
+    /* plant1 in second portion end */
+    /* plant2 in second portion start */
+ .plant2img img{
+    width: 732px;
+height: 732px;
+float:right;
+margin-right: 200px;
+position: relative;
+z-index: 1;
+} 
+.plant2wrtng{
+    display: flex;
+    margin-top: 200px;
+    width: 2200px;
+    margin-left: 200px;
+height: 526px;
+border-radius: 151px; 
+border: 2px solid linear-gradient(135.72deg, rgba(255, 255, 255, 0.27) 8.53%, rgba(255, 255, 255, 0) 60.59%, rgba(255, 255, 255, 0.33) 93.17%);
+backdrop-filter: blur(40px);
+background: rgba(255, 255, 255, 0.05);
+margin-right: 500px;
+position: absolute;
+}
+.new2{
+    margin-top:150px;
+    margin-left: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.new2 h{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.99px;
+} 
+.new2 p{
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    
+    }
+ .pricehead2{
+        margin:0;
+        padding-right: 1600px;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45.99px;
+        
+  }
+.buttonB img{
+    width: 34px;
+    height: 34px;
+    
+    
+}  
+.buttonA{
+    background: rgba(255, 255, 255, 0.05);
+    margin:0;
+    width: 217px;
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 1);
+font-size: 28px;
+font-weight: 500;
+line-height: 33.89px;
+} 
+.new2 button{
+    margin-top: 20px;
+}
+.buttonB{
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.05);
+    
+}
+/* next page start */
+.container2{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+     margin-top: 200px;
+}
+    .headA h{
+font-size: 55px;
+font-weight: 600;
+line-height: 66.56px;
+text-align: center;
+
+    }
+    .headA{
+        width: 405px;
+    height: 67px;
+    margin-left: 1000px;
+    margin-top: 150px;
+    
+
+
+}
+
+.grid1{
+ display: flex;
+ flex-direction:column ;
+ margin-left: 100px; 
+}
+.grid1 h,p{
+    margin-left: 100px;
+}
+.grid1 h{
+
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45.99px;
+    text-align: left;
+    
+}
+
+.grid1 img{
+    width: 459px;
+height: 459px;
+
+}
+.grid1 div h{
+    margin:0;
+    
+}
+
+.bag1{
+    width: 55px;
+height: 55px;
+
+
+
+
+}
+.bag1 img{
+    width: 27px;
+height: 27px;
+}
+.grid12{
+    margin-left: 100px;
+}
+
+.grid2{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.grid2 img{
+    width: 459px;
+    height: 459px;
+}
+.bag2 img{
+    width: 27px;
+height: 27px;
+}
+.grid3{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.grid3 img{
+    width: 459px;
+    height: 459px;
+}
+.bag3 img{
+    width: 27px;
+height: 27px;
+}

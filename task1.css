@@ -1,0 +1,272 @@
+*{
+    font-family: "Inter", serif;
+
+
+
+}
+body{
+    margin: 0;
+}
+/* header section starts */
+.header{
+    background: #1B2316;
+    width:100%;
+    height:130px;
+    border: none;
+    
+    
+}
+.planto{
+    width:20%;
+    height: 130px;
+    float: left;
+}
+.planto img{
+  width: 48px;
+  height: 48px;
+  margin-top: 60px;
+  margin-left: 57px;
+}
+.planto h{
+    
+   font-size: 28px;
+   font-weight: 900;
+    line-height: 33.89px;
+   text-align: left;
+  color: #FFFFFF;
+
+}
+.nav{
+    width:50%;
+    height:130px;
+    float: left;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ul li{
+    
+    list-style: none;
+    margin-left:200px ;
+    margin-top:45px ;
+    font-size: 24px;
+    
+}
+ul li a{
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+
+
+} 
+.icon{
+    width:25%;
+    height: 130px;
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.icon img{
+    margin-left:100px;
+    margin-top: 50px;
+    float: left;
+    height: 26px;
+    width: 26px;
+    
+}
+
+
+/* header section end */
+/* breath section start */
+.main{
+    background-color: #1B2316;
+    width:100%;
+    height: 2592px;
+    background-image:url(/figmapuss.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+
+
+}
+.breath h{
+    width: 892px;
+height: 143px;
+margin-top: 266px;
+margin-left: 57px;
+opacity: 0.75px;
+font-family: Inter;
+font-size: 118px;
+font-weight: 600;
+line-height: 142.81px;
+text-align: left;
+color: #FFFFFF;
+
+
+}
+   .breath{
+    padding-top: 100px;
+    padding-left: 10px;
+    float: left;
+   }
+.breath p{
+    color: #FFFFFF;
+font-size: 23px;
+font-weight: 500;
+line-height: 27.84px;
+text-align: left;
+margin-left: 60px;
+
+}
+button{
+    border: 1px solid #FFFFFF;
+    
+    width: 217px;
+    height: 64px;
+margin-left: 63px;
+border-radius: 12px;
+background-color: #1B2316;
+color: #FFFFFF;
+font-size: 28px;
+font-size: 28px;
+float: left;
+}
+.vdeo img{
+width: 34px;
+height: 34px;
+}
+.vdeo{
+    height: 74px;
+    width:74px;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: left;
+    
+}
+/* breath section end */
+.aside{
+    
+    width:50%;
+    margin-left: 300px;
+    height:1000px;
+    float: left;
+    
+    display: flex;
+}
+
+.calathea{
+    width: 512px;
+   height: 644px;
+   background: rgba(255, 255, 255, 0.05);
+border-radius: 77px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 150px;
+position: relative;
+margin-left: 700px;
+backdrop-filter: blur(25px);
+box-shadow: 0px 9px 18.4px 0px rgba(0, 0, 0, 0.25);
+}
+.plant img{
+    width: 459px;
+    height: 459px;
+    margin-left: 700px;
+    position: absolute;
+    z-index: 1;
+    }
+.calathea p{
+    width: 213px;
+height: 28px;
+margin-top: 400px;
+margin-left: 70px;
+color:#FFFFFF;
+font-size: 23px;
+font-weight: 400;
+line-height: 27.84px;
+text-align: left;
+
+}
+.calathea button{
+    margin-top: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0px 9px 18.4px 0px rgba(0, 0, 0, 0.25);
+    
+
+    
+}
+.calathea h{
+    width: 261px;
+height: 46px;
+margin-left: 60px;
+font-size: 38px;
+font-weight: 400;
+line-height: 45.99px;
+text-align: left;
+color: #FFFFFF;
+}
+.calathea img{
+    margin-left: 100px;
+}
+.review{
+  
+    padding-top: 600px;
+    padding-left: 100px;
+    position: relative;
+
+    
+}
+.figmagirl{
+    
+    position: absolute;
+    width: 409px;
+    height: 237px;
+    border: 2px solid rgba(255, 255, 255, 0.42);
+    backdrop-filter: blur(20.200000762939453px);
+    background: rgba(255, 255, 255, 0.05);
+border-radius: 45px ;
+}
+.figmagirl img{
+    height: 64px;
+    width:64px;
+    clip-path: circle(50% at 50% 50%);
+    margin-top:40px;
+   margin-left: 40px;
+}
+.star{
+    display: inline;
+}
+.star img{
+    width: 115px;
+height: 47px;
+}
+.review p{
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+.first-section{
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+}
+.second-section{
+    background-color: aquamarine;
+     width: 100%;
+    height: 65%;
+    float: ;
+}
